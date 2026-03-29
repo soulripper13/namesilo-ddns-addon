@@ -12,7 +12,7 @@ def log(message):
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}", flush=True)
 
 def get_public_ip(ipv6=False):
-    url = "https://api64.ipify.org" if ipv6 else "https://api.ipify.org"
+    url = "https://api6.ipify.org" if ipv6 else "https://api.ipify.org"
     try:
         with urllib.request.urlopen(url, timeout=10) as response:
             return response.read().decode("utf-8").strip()
