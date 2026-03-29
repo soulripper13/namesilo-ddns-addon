@@ -1,0 +1,26 @@
+name: "NameSilo DDNS"
+description: "Dynamic DNS client for NameSilo supporting IPv4 and IPv6."
+version: "1.0.0"
+slug: "namesilo-ddns"
+init: false
+startup: services
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+options:
+  api_key: ""
+  domain: ""
+  hosts: ["@"]
+  update_ipv4: true
+  update_ipv6: false
+  check_interval: 300
+schema:
+  api_key: str
+  domain: str
+  hosts:
+    - str
+  update_ipv4: bool
+  update_ipv6: bool
+  check_interval: "int(60,)"
