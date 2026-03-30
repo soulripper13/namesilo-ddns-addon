@@ -1,18 +1,20 @@
 import json
 import os
 import time
+import socket
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
 OPTIONS_FILE = "/data/options.json"
+_orig_getaddrinfo = socket.getaddrinfo
 
 def log(message):
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {message}", flush=True)
 
 def get_public_ip(ipv6=False, custom_url=None):
-    url = custom_url if custom_url else ("https://api64.ipify.org" if ipv6 else "https://api.ipify.org")
+    url = custom_url if custom_url else ("https://ipv6.icanhazip.com" if ipv6 else "https://ipv4.icanhazip.com")
     try:
         with urllib.request.urlopen(url, timeout=10) as response:
             return response.read().decode("utf-8").strip()
@@ -24,7 +26,10 @@ def namesilo_request(operation, api_key, params):
     base_url = f"https://www.namesilo.com/api/{operation}?version=1&type=xml&key={api_key}"
     for k, v in params.items():
         base_url += f"&{k}={v}"
-    
+
+    # NameSilo API requires IPv4; temporarily force it
+    socket.getaddrinfo = lambda host, port, family=0, type=0, proto=0, flags=0: \
+        _orig_getaddrinfo(host, port, socket.AF_INET, type, proto, flags)
     try:
         with urllib.request.urlopen(base_url, timeout=15) as response:
             content = response.read().decode("utf-8")
@@ -38,6 +43,8 @@ def namesilo_request(operation, api_key, params):
     except Exception as e:
         log(f"Unexpected error calling NameSilo ({operation}): {e}")
         return None
+    finally:
+        socket.getaddrinfo = _orig_getaddrinfo
 
 def update_dns():
     if not os.path.exists(OPTIONS_FILE):
