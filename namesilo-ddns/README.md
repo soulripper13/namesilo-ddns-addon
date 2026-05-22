@@ -4,9 +4,9 @@
 [![Support Development](https://img.shields.io/badge/Support-Development-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/soulripper13)
 
 <div align="center">
-  <img src="https://dummyimage.com/800x60/0d1117/ffffff&text=NameSilo+DDNS+Add-on+-+This+Home+Assistant+add-on+provides+Dynamic+DNS+updates" alt="Hero Banner">
+  <img src="https://dummyimage.com/800x60/0d1117/ffffff&text=NameSilo+DDNS+Add-on+-+NameSilo+DDNS+Add-on" alt="Hero Banner">
   <br><br>
-  <strong>This Home Assistant add-on provides Dynamic DNS updates for NameSilo. It supports both IPv4 and IPv6.</strong> 
+  <strong>NameSilo DDNS Add-on</strong> 
   <br><br> 
   
   <a href="https://ko-fi.com/soulripper13">
@@ -15,19 +15,6 @@
 </div>
 
 ---
-
-<img src="https://dummyimage.com/800x60/0d1117/ffffff&text=NameSilo+DDNS+Add-on+-+This+Home+Assistant+add-on+provides" alt="Hero Banner">
-  <br><br>
-  <strong>This Home Assistant add-on provides Dynamic DNS updates for NameSilo. It supports both IPv4 and IPv6.</strong> 
-  <br><br> 
-  
-  <a href="https://ko-fi.com/soulripper13">
-    <img src="https://storage.ko-fi.com/cdn/kofi5.png?v=6" alt="Support NameSilo DDNS Add-on on Ko-fi" width="220">
-  </a>
-</div>
-
----
-This Home Assistant add-on provides Dynamic DNS updates for NameSilo. It supports both IPv4 and IPv6.
 
 ## Features
 - Update IPv4 (A record) and IPv6 (AAAA record).
@@ -109,6 +96,32 @@ You can also help by:
 * Starring the repository ⭐
 
 Thank you for being part of the community.
+
+### Ways to Support
+
+* **Ko-fi**
+  [https://ko-fi.com/soulripper13](https://ko-fi.com/soulripper13)
+
+* **PayPal**
+  [https://paypal.me/SKatoaroo](https://paypal.me/SKatoaroo)
+
+* **Bitcoin (BTC)**
+  `bc1qvu8a9gdy3dcxa94jge7d3rd7claapsydjsjxn0`
+
+* **Solana (SOL)**
+  `4jvCR2YFQLqguoyz9qAMPzVbaEcDsG5nzRHFG8SeaeBK`
+
+You can also help by:
+
+* Reporting bugs
+* Submitting pull requests
+* Suggesting features
+* Helping other users
+* Starring the repository ⭐
+
+Thank you for being part of the community.
+
+---
 
 ---
 ## Support the Project
