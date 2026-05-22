@@ -1,5 +1,32 @@
 # NameSilo DDNS Add-on
 
+[![Support Development](https://img.shields.io/badge/Support-Development-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)
+[![Support Development](https://img.shields.io/badge/Support-Development-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/soulripper13)
+
+<div align="center">
+  <img src="https://dummyimage.com/800x60/0d1117/ffffff&text=NameSilo+DDNS+Add-on+-+This+Home+Assistant+add-on+provides+Dynamic+DNS+updates" alt="Hero Banner">
+  <br><br>
+  <strong>This Home Assistant add-on provides Dynamic DNS updates for NameSilo. It supports both IPv4 and IPv6.</strong> 
+  <br><br> 
+  
+  <a href="https://ko-fi.com/soulripper13">
+    <img src="https://storage.ko-fi.com/cdn/kofi5.png?v=6" alt="Support NameSilo DDNS Add-on on Ko-fi" width="220">
+  </a>
+</div>
+
+---
+
+<img src="https://dummyimage.com/800x60/0d1117/ffffff&text=NameSilo+DDNS+Add-on+-+This+Home+Assistant+add-on+provides" alt="Hero Banner">
+  <br><br>
+  <strong>This Home Assistant add-on provides Dynamic DNS updates for NameSilo. It supports both IPv4 and IPv6.</strong> 
+  <br><br> 
+  
+  <a href="https://ko-fi.com/soulripper13">
+    <img src="https://storage.ko-fi.com/cdn/kofi5.png?v=6" alt="Support NameSilo DDNS Add-on on Ko-fi" width="220">
+  </a>
+</div>
+
+---
 This Home Assistant add-on provides Dynamic DNS updates for NameSilo. It supports both IPv4 and IPv6.
 
 ## Features
@@ -32,3 +59,84 @@ check_interval: 300
 ## Note
 The records must already exist in NameSilo. This add-on does not create new records.
 Make sure your IP is whitelisted in NameSilo API settings (or leave it blank to allow all IPs).
+
+
+### Ways to Support
+
+* **Ko-fi**
+  [https://ko-fi.com/soulripper13](https://ko-fi.com/soulripper13)
+
+* **PayPal**
+  [https://paypal.me/SKatoaroo](https://paypal.me/SKatoaroo)
+
+* **Bitcoin (BTC)**
+  `bc1qvu8a9gdy3dcxa94jge7d3rd7claapsydjsjxn0`
+
+* **Solana (SOL)**
+  `4jvCR2YFQLqguoyz9qAMPzVbaEcDsG5nzRHFG8SeaeBK`
+
+You can also help by:
+
+* Reporting bugs
+* Submitting pull requests
+* Suggesting features
+* Helping other users
+* Starring the repository ⭐
+
+Thank you for being part of the community.
+
+
+### Ways to Support
+
+* **Ko-fi**
+  [https://ko-fi.com/soulripper13](https://ko-fi.com/soulripper13)
+
+* **PayPal**
+  [https://paypal.me/SKatoaroo](https://paypal.me/SKatoaroo)
+
+* **Bitcoin (BTC)**
+  `bc1qvu8a9gdy3dcxa94jge7d3rd7claapsydjsjxn0`
+
+* **Solana (SOL)**
+  `4jvCR2YFQLqguoyz9qAMPzVbaEcDsG5nzRHFG8SeaeBK`
+
+You can also help by:
+
+* Reporting bugs
+* Submitting pull requests
+* Suggesting features
+* Helping other users
+* Starring the repository ⭐
+
+Thank you for being part of the community.
+
+---
+## Support the Project
+
+This project is developed and maintained in spare time and is provided free to the community.
+
+If you find it useful and would like to support ongoing development, maintenance, and improvements, any contribution is appreciated — but never required ❤️
+
+### Ways to Support
+
+* **Ko-fi**
+  [https://ko-fi.com/soulripper13](https://ko-fi.com/soulripper13)
+
+* **PayPal**
+  [https://paypal.me/SKatoaroo](https://paypal.me/SKatoaroo)
+
+* **Bitcoin (BTC)**
+  `bc1qvu8a9gdy3dcxa94jge7d3rd7claapsydjsjxn0`
+
+* **Solana (SOL)**
+  `4jvCR2YFQLqguoyz9qAMPzVbaEcDsG5nzRHFG8SeaeBK`
+
+You can also help by:
+
+* Reporting bugs
+* Submitting pull requests
+* Suggesting features
+* Helping other users
+* Starring the repository ⭐
+
+Thank you for being part of the community.
